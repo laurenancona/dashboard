@@ -5,7 +5,7 @@ logger = Log4r::Logger.new('ga')
 logger.outputters << Log4r::StderrOutputter.new('stderr')
 logger.outputters[0].formatter = Log4r::SimpleFormatter.new
 
-google_account_id = '301981928719-8l5uovftgnct3fqltt6r8k2ut25o4tp8@developer.gserviceaccount.com'
+google_account_id = '64339473783-ln0oi4o08229crn1a1o2jbeph92aued8@developer.gserviceaccount.com'
 
 # setup the client
 client = Google::APIClient.new
