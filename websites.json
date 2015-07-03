@@ -2,11 +2,15 @@
   "websites": [
     {
       "tracking_id": "UA-860026-1",
-      "title": "Philagov"
+      "title": "Philagov",
+      "max": "10000",
+      "class": "popular"
       },
     {
       "tracking_id": "UA-860026-5",
-      "title": "Alpha"
+      "title": "Alpha",      
+      "max": "1000",
+      "class": "popular"
     },
     {
       "tracking_id": "UA-35850648-4",
