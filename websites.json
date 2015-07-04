@@ -3,46 +3,45 @@
     {
       "tracking_id": "UA-860026-1",
       "title": "Phila.gov",
-      "max": "100000",
+      "max": "40000",
       "class": "popular"
       },
-      {
-      "tracking_id": "UA-35850648-6",
-      "title": "Property Search",
-      "max": "100000",
-      "class": "popular"
-    },
     {
       "tracking_id": "UA-860026-5",
       "title": "Alpha",      
-      "max": "1000",
+      "max": "40000",
       "class": "popular"
     },
+    {
+      "tracking_id": "UA-35850648-6",
+      "title": "Property Search",
+      "max": "250000",
+      "class": "popular"
+    },
+     {
+      "tracking_id": "UA-860026-6",
+      "title": "Scraping",
+      "max": "250000",
+      "class": "popular"
+    }, 
+    {
+      "tracking_id": "UA-59666363-1",
+      "title": "Open Data Philly",
+      "max": "500"
+    },  
     {
       "tracking_id": "UA-35850648-4",
       "title": "PHL AVI",
       "max": "1000"
     },
     {
-      "tracking_id": "UA-860026-6",
-      "title": "Phila.gov Testing",
-      "max": "100000",
-      "class": "popular"
-    },
-
-    {
-      "tracking_id": "UA-59666363-1",
-      "title": "Open Data Philly",
-      "max": "500"
+      "tracking_id": "UA-35850648-1",
+      "title": "L & I Mobile",
+      "max": "2300"      
     },
     {
       "tracking_id": "UA-35850648-3",
       "title": "Election 311"
-    },
-    {
-      "tracking_id": "UA-35850648-1",
-      "title": "L & I Mobile",
-      "max": "2300"      
     }
   ]
  } 
