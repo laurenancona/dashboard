@@ -61,7 +61,7 @@ SCHEDULER.every '1h', first_in: 0 do
   # get historical points
 
   now = Time.now
-  start_date = now - 7 * 3600 * 24
+  start_date = now - 30 * 3600 * 24
 
   graphs.each_pair do |graph_id, property_id|
     logger.info "Getting historical data for #{graph_id} (property #{property_id})"
