@@ -211,7 +211,12 @@ class Dashing.Rickshawgraph extends Dashing.Widget
         graph: graph
         element: @$legendDiv.get(0)
       }
- 
+      
+    if @get("hover")
+      hoverDetail = new Rickshaw.Graph.HoverDetail {
+        graph: graph
+      }
+
     return graph
  
   # Parse a {series, points} object with new data from Dashing.
