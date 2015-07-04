@@ -1,4 +1,4 @@
-Code4SA Dashboard
+Phila.gov Dashboard
 =================
 
 This is a [Dashing](http://shopify.github.com/dashing) dashboard for showing historical and realtime
@@ -57,3 +57,10 @@ heroku config:set BASIC_AUTH_USER=a-username\
                   BASIC_AUTH_PASS=a-password
 git push heroku
 ```
+
+Remote Reloading
+================
+
+Occasional page refreshes help prevent JavaScript from pigging out on memory.
+You can force all loaded dashboards to refresh manually by running
+`curl -d '{ "auth_token": "YOUR_AUTH_TOKEN" }' \http://mydashboard.server.com/widgets/reload`
