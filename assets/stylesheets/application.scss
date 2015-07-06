@@ -5,8 +5,8 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color: #222;
-$text-color: #fff;
+$background-color: #000;
+$text-color: #000;
 
 $background-warning-color-1: #e82711;
 $background-warning-color-2: #9b2d23;
@@ -95,7 +95,7 @@ h1 {
   margin-bottom: 12px;
   text-align: center;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
 
 }
@@ -267,10 +267,10 @@ h3 {
 }
 
 .website {
-  background-color: #b3cde3;
+  background-color: #FFF;
 
   .currently {
-    color: #3d9970;
+    color: #026A96!important;
   }
 }
 
@@ -283,6 +283,8 @@ h3 {
 }
 
 .detail {
- margin-top: 55%
+ margin-top: 55%;
+ font-size: 10px;
+ position: relative;
 }
 
