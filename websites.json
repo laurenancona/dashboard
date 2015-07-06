@@ -27,21 +27,25 @@
     {
       "tracking_id": "UA-59666363-1",
       "title": "Open Data Philly",
-      "max": "500"
+      "max": "500",
+      "class": "popular"  
     },  
     {
       "tracking_id": "UA-35850648-4",
       "title": "PHL AVI",
-      "max": "1000"
+      "max": "1000",
+      "class": "popular"      
     },
     {
       "tracking_id": "UA-35850648-1",
       "title": "L & I Mobile",
-      "max": "2300"      
+      "max": "2300",
+      "class": "popular"
     },
     {
       "tracking_id": "UA-35850648-3",
-      "title": "Election 311"
+      "title": "Election 311",
+      "class": "popular"
     }
   ]
  } 
